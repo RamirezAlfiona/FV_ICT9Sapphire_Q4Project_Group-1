@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quarter 3 - ICT</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #fff0f5;
+      flex: 1;
+    }
+
+    nav {
+      background: linear-gradient(to right, #ffdee9, #b5fffc);
+      padding: 10px 20px;
+    }
+
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .navbar-left,
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5a5a5a;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ffffffaa;
+    }
+
+    .navbar-right input[type="text"] {
+      padding: 5px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .navbar-right button {
+      padding: 5px 10px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      color: #555;
+      font-weight: bold;
+    }
+
+    header {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      padding: 20px;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      padding: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .student-card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .student-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .student-card button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    color: white;
+  }
+
+  .rafa-button {
+    background-color: #addfff;
+  }
+
+  .rafa-button:hover {
+    background-color: #9bd5fa;
+  }
+
+  .sammy-button {
+    background-color: #d8b4f8;
+  }
+
+  .sammy-button:hover {
+    background-color: #c48ef5;
+  }
+
+  .fiona-button {
+    background-color: #ffd1dc;
+  }
+
+  .fiona-button:hover {
+    background-color: #faafc1;
+  }
+
+  .izeck-button {
+    background-color: #ffe0f0;
+  }
+
+  .izeck-button:hover {
+    background-color: #fcb3d9;
+  }
+
+    footer {
+      background: linear-gradient(to right, #b5fffc, #ffdee9);
+      text-align: center;
+      color: #444;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="navbar-container">
+      <div class="navbar-left">
+        <a href="index.html">About Us</a>
+        <a href="page2.html">Quarter 1</a>
+        <a href="page3.html">Quarter 2</a>
+        <a href="page4.html">Quarter 3</a>
+        <a href="page5.html">Quarter 4</a>
+        <a href="page6.html">What's Next</a>
+        <a href="page7.html">Rate Us</a>
+      </div>
+      <div class="navbar-right">
+        <input type="text" placeholder="search..." />
+        <button>Search</button>
+      </div>
+    </div>
+  </nav>
+
+  <header>Quarter 3 Projects</header>
+
+  <div class="gallery">
+    <div class="student-card">
+      <img src="rafapic.jpg">
+      <a href="q3/home.html" target="_blank">
+      <button class="rafa-button">View Rafa's Project</button>
+    </a>
+    </div>
+    <div class="student-card">
+      <img src="sammypic.jpg">
+      <a href="q3/home.html" target="_blank">
+      <button class="sammy-button">View Sammy's Project</button>
+    </a>
+    </div>
+    <div class="student-card">
+      <img src="fionapic.jpg">
+      <a href="q3/Findex3.html" target="_blank">
+      <button class="fiona-button">View Fiona's Project</button>
+      </a>
+    </div>
+    <div class="student-card">
+      <img src="izeckpic.jpg">
+      <a href="nono.html" target="_blank">
+      <button class="izeck-button">View Izeck's Project</button>
+    </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>OB Montessori Center Fairview Campus</p>
+    <p>© Group 1 - Rafa, Sammy, Fiona, Izeck</p>
+    <p><a href="https://docs.google.com/document/d/1AWKKTirdIGgmiPIbidQPAftTF3f1y-3eR2MNfTyUTAM/edit?usp=sharing" target="_blank">References</a></p>
+  </footer>
+
+</body>
+</html>

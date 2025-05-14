@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/0/02/Hello_Kitty_character_portrait.png" type="image/png">
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      background-color: #ffd1dc;
+      background-size: cover;
+      background-repeat: repeat;
+    }
+
+    nav {
+  background: linear-gradient(to right, #ff85a2, #f7becc);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(255, 105, 135, 0.2);
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: #a52a2a;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.nav-left a:hover {
+  background-color: #ffe6ec;
+}
+
+.nav-right input[type="text"] {
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid #ff85a2;
+}
+
+.nav-right button {
+  padding: 6px 10px;
+  background: white;
+  border: 1px solid #ff85a2;
+  border-radius: 8px;
+  color: #a52a2a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+    .title {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .title h1 {
+      background-color: #ff85a2;
+      color: white;
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(255, 105, 135, 0.3);
+    }
+
+    .description {
+      text-align: center;
+      margin-top: 15px;
+      padding: 0 20px;
+      color: #a52a2a;
+    }
+
+    .profile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .profile img {
+      width: 150px;
+      border-radius: 12px;
+      margin: 15px;
+      border: 3px solid #ffa3b1;
+    }
+
+    .profile-info {
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 12px;
+      color: #a52a2a;
+      max-width: 400px;
+    }
+
+    .projects {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .projects h2 {
+      background: linear-gradient(to right, #ff85a2, #f7becc);
+      color: white;
+      padding: 10px;
+      display: inline-block;
+      border-radius: 12px;
+    }
+
+    .projects a {
+      display: block;
+      margin: 10px auto;
+      width: 220px;
+      background: #ff85a2;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .projects a:hover {
+      background-color: #ff9db5;
+    }
+
+    footer {
+      background: linear-gradient(to right, #ffd1dc, #ff85a2);
+      text-align: center;
+      color: #a52a2a;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+
+    .hello-icon {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+  <div class="nav-left">
+    <a href="index.html"><img class="hello-icon" src="https://i.pinimg.com/originals/7d/73/86/7d7386100a718ac5b487fddc9bcb5d4b.gif"> About Us</a>
+    <a href="page2.html">Quarter 1</a>
+    <a href="page3.html">Quarter 2</a>
+    <a href="page4.html">Quarter 3</a>
+    <a href="page5.html">Quarter 4</a>
+    <a href="page6.html">What's Next</a>
+    <a href="page7.html">Rate Us</a>
+  </div>
+  <div class="nav-right">
+    <input type="text" placeholder="search..." />
+    <button>Search</button>
+  </div>
+</nav>
+
+
+  <div class="title">
+    <h1>MY PORTFOLIO</h1>
+  </div>
+
+  <div class="description">
+    <p>This portfolio shows my project for each quarter for this school year 2024–2025. This covers the following programming languages: Basic HTML, CSS, Bootstrap, and JavaScript. <br>Click the navigation links to explore my work!</p>
+  </div>
+
+  <div class="profile">
+    <img src="fionapic.jpg">
+    <div class="profile-info">
+      <p><strong>Name:</strong> Alfiona Renee De Guzman Ramirez</p>
+      <p><strong>Interests/Clubs:</strong> Makeup, Horror, Social Media, Math, spending time with loved ones.</p>
+      <p><strong>Ambition:</strong> “I am dedicated to improving myself and my relationship with everyone and to finding what I truly want in life. I want to work harder next school year to reach everyone's expectations for me. I also want to do better in everything that I do, especially math, to follow my dad's and sister's footsteps into becoming an engineer." </p>
+    </div>
+  </div>
+
+  <div class="projects">
+    <h2><img class="hello-icon" src="https://i.pinimg.com/originals/7d/73/86/7d7386100a718ac5b487fddc9bcb5d4b.gif"> Quarter Projects <img class="hello-icon" src="https://i.pinimg.com/originals/7d/73/86/7d7386100a718ac5b487fddc9bcb5d4b.gif"></h2>
+    <a href="q1/FV_ICT9Sapphire_Q1Project_Ramirez_Alfiona.html" target="_blank">► Quarter 1</a>
+    <a href="q2/Findex2.html" target="_blank">► Quarter 2</a>
+    <a href="q3/Findex3.html" target="_blank">► Quarter 3</a>
+    <a href="q4/Findex4.html" target="_blank">► Quarter 4</a>
+  </div>
+
+  <footer>
+    <p><img class="hello-icon" src="https://i.pinimg.com/originals/7d/73/86/7d7386100a718ac5b487fddc9bcb5d4b.gif">For any inquiries, feel free to contact us 💌</p>
+    <p>OB Montessori Center Fairview Campus</p>
+    <p>©Alfiona Ramirez</p>
+    <p><a href="https://docs.google.com/document/d/1AWKKTirdIGgmiPIbidQPAftTF3f1y-3eR2MNfTyUTAM/edit?usp=sharing" target="_blank">References</a></p>
+
+  </footer>
+
+</body>
+</html>

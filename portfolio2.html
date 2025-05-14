@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/0/02/Hello_Kitty_character_portrait.png" type="image/png">
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      background-color: #cb9ef0;
+      background-size: cover;
+      background-repeat: repeat;
+    }
+
+    nav {
+  background: linear-gradient(to right, #a866de, #ba82e8);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(255, 105, 135, 0.2);
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: #a52a2a;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.nav-left a:hover {
+  background-color: #ffe6ec;
+}
+
+.nav-right input[type="text"] {
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid #ff85a2;
+}
+
+.nav-right button {
+  padding: 6px 10px;
+  background: white;
+  border: 1px solid #ff85a2;
+  border-radius: 8px;
+  color: #ba82e8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+    .title {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .title h1 {
+      background-color: #984bd6;
+      color: white;
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(255, 105, 135, 0.3);
+    }
+
+    .description {
+      text-align: center;
+      margin-top: 15px;
+      padding: 0 20px;
+      color: #a52a2a;
+    }
+
+    .profile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .profile img {
+      width: 150px;
+      border-radius: 12px;
+      margin: 15px;
+      border: 3px solid #ffa3b1;
+    }
+
+    .profile-info {
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 12px;
+      color: #a52a2a;
+      max-width: 400px;
+    }
+
+    .projects {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .projects h2 {
+      background: linear-gradient(to right, #9e60d1, #bd7ff0);
+      color: white;
+      padding: 10px;
+      display: inline-block;
+      border-radius: 12px;
+    }
+
+    .projects a {
+      display: block;
+      margin: 10px auto;
+      width: 220px;
+      background:#ab73d9;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .projects a:hover {
+      background-color: #8951b8;
+    }
+
+    footer {
+      background: linear-gradient(to right, #ba82e8,  #a866de);
+      text-align: center;
+      color: #a52a2a;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+
+    .kuromi-icon {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+  <div class="nav-left">
+    <a href="index.html"><img class="kuromi-icon" src="https://i.pinimg.com/originals/fd/cd/d5/fdcdd51a047b114eb5c335e0314cbaad.gif"> About Us</a>
+    <a href="page2.html">Quarter 1</a>
+    <a href="page3.html">Quarter 2</a>
+    <a href="page4.html">Quarter 3</a>
+    <a href="page5.html">Quarter 4</a>
+    <a href="page6.html">What's Next</a>
+    <a href="page7.html">Rate Us</a>
+  </div>
+  <div class="nav-right">
+    <input type="text" placeholder="search..." />
+    <button>Search</button>
+  </div>
+</nav>
+
+
+  <div class="title">
+    <h1>MY PORTFOLIO</h1>
+  </div>
+
+  <div class="description">
+    <p>This portfolio shows my project for each quarter for this school year 2024–2025. This covers the following programming languages: Basic HTML, CSS, Bootstrap, and JavaScript. <br>Click the navigation links to explore my work!</p>
+  </div>
+
+  <div class="profile">
+    <img src="sammypic.jpg">
+    <div class="profile-info">
+      <p><strong>Name:</strong> Samantha Yssabelle S. Manahan</p>
+      <p><strong>Interests/Clubs:</strong> Science, dogs, books, video games (Roblox, Valorant), food and movies </p>
+      <p><strong>Ambition:</strong> "I have always been drawn to the idea that knowledge can heal, therefore I am passionate about becoming a successful doctor specializing in pediatrics. </p>
+    </div>
+  </div>
+
+  <div class="projects">
+    <h2><img class="kuromi-icon" src="https://i.pinimg.com/originals/52/d8/d7/52d8d7d7dd20b858e02fd818ba06c53b.gif"> Quarter Projects <img class="kuromi-icon" src="https://i.pinimg.com/originals/52/d8/d7/52d8d7d7dd20b858e02fd818ba06c53b.gif"></h2>
+    <a href="q1/Sindex.html" target="_blank">► Quarter 1</a>
+    <a href="q2/Sindex2.html" target="_blank">► Quarter 2</a>
+    <a href="q3/home.html" target="_blank">► Quarter 3</a>
+    <a href="q4/Sindex4.html" target="_blank">► Quarter 4</a>
+  </div>
+
+  <footer>
+    <p><img class="kuromi-icon" src="https://i.pinimg.com/originals/fd/cd/d5/fdcdd51a047b114eb5c335e0314cbaad.gif">For any inquiries, feel free to contact us 💌</p>
+    <p>OB Montessori Center Fairview Campus</p>
+    <p>©Samantha Manahan</p>
+    <p><a href="https://docs.google.com/document/d/1AWKKTirdIGgmiPIbidQPAftTF3f1y-3eR2MNfTyUTAM/edit?usp=sharing" target="_blank">References</a></p>
+
+  </footer>
+
+</body>
+</html>
